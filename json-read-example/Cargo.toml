@@ -1,0 +1,7 @@
+[package]
+name = "json-read-example"
+version = "0.1.0"
+authors = ["markjordilew <mark.lewis@zappistore.com>"]
+
+[dependencies]
+json="0.11.4"
