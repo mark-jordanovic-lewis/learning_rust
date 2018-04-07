@@ -158,6 +158,25 @@ fn main() {
         assert_eq!(s, "one");
         println!("Should see this three times");
     }
+
+    // some nice iterator methods
+    // position
+    let mut vec = vec![10,20,30,40,50];
+    let position_of_30 = vec.iter().position(|&i| i == 30).unwrap();
+    println!("vec: {:?}",vec);
+    println!("The position of 30 in the array: {}", position_of_30);
+    vec.extend([60,70,80].iter());
+    // map ane extend
+    let mut stringies = vec!["hello".to_string(), "noodle".to_string()];
+    println!("stringies:              {:?}", stringies);
+    stringies.extend(["you","are","fine"].iter().map(|s| s.to_string()));
+    println!("stringies after extend: {:?}", stringies);
+    // collect
+    let vec_iter = vec.iter().map(|&i| i as i32 );
+    let converted_result: Vec<_> = vec_iter.collect();
+    // let result_converted: Result<Vec<_>,_> = vec_iter.collect();
+    println!("converted_result: {:?}", converted_result);
+    // println!("result_converted: {:?}", result_converted);
 }
 
 // function that takes a slice
