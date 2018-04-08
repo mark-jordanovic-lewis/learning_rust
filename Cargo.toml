@@ -2,5 +2,6 @@
 members=[
     "hashmap-word-count",
     "serde-json-example",
-    "json-read-example"
+    "json-read-example",
+    "lib"
 ]
