@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7481a0cc-dff7-4c0b-b10c-88b6bb13807a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hashmap-word-count/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/test/test.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/fake_file_iterator.rs" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fake_file_iterator.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps.rs" beforeDir="false" afterPath="$PROJECT_DIR$/maps.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serde-json-example/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/serde-json-example/Cargo.toml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,15 +43,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lib.rs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hashmap-word-count/src/lib.rs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Cargo.toml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/Cargo.toml">
               <provider selected="true" editor-type-id="text-editor">
@@ -67,7 +52,16 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cargo.toml" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="13" selection-start-column="13" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Cargo.toml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hashmap-word-count/Cargo.toml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="70">
@@ -146,6 +140,7 @@
         <option value="$PROJECT_DIR$/hashmap-word-count/src/main.rs" />
         <option value="$PROJECT_DIR$/hashmap-word-count/src/lib.rs" />
         <option value="$PROJECT_DIR$/hashmap-word-count/Cargo.toml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -176,17 +171,6 @@
             <path>
               <item name="rust" type="b2602c69:ProjectViewProjectNode" />
               <item name="rust" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap-word-count" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rust" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rust" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmap-word-count" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rust" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rust" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -202,7 +186,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.hideToolchainNotifications" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,12 +210,12 @@
       <updated>1523030335774</updated>
       <workItem from="1523030337978" duration="2523000" />
       <workItem from="1523110629136" duration="4290000" />
-      <workItem from="1523176711682" duration="4633000" />
+      <workItem from="1523176711682" duration="5137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11446000" />
+    <option name="totallyTimeSpent" value="11950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -374,6 +358,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hashmap-word-count/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Cargo.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -381,10 +372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hashmap-word-count/Cargo.toml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
