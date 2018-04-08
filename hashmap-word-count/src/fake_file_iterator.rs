@@ -53,3 +53,10 @@ pub fn read_all_lines_from_url(url: &str) -> io::Result<()> {
     }
     Ok(())
 }
+
+// implementing read on std::result::Result<reqwest::Response, reqwest::Error>: std::io::Read
+impl std::result::Result<reqwest::Response, reqwest::Error> {
+    pub fn read(&self) {
+
+    }
+}

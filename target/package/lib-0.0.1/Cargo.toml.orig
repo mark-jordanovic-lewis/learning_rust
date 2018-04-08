@@ -1,0 +1,17 @@
+[package]
+name="lib"
+version="0.0.1"
+workspace="../" # this is inferred from the first workspace toml encounter up the dir tree
+
+[[bin]]
+name="test"
+path="test/test.rs"
+
+[lib]
+name="lib"
+path="./mod.rs"
+plugin=true
+crate-type=["staticlib"]
+
+[dependencies]
+reqwest="0.8.5"
