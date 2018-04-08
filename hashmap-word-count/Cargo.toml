@@ -1,0 +1,8 @@
+[package]
+name = "hashmap-word-count"
+version = "0.1.0"
+authors = ["mark-jordanovic-lewis <mark.lewis@zappistore.com>"]
+
+[dependencies]
+reqwest="0.8.5"
+lib={path="../lib/"}

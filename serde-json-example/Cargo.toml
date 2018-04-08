@@ -1,4 +1,4 @@
-x[package]
+[package]
 name = "serde-json-example"
 version = "0.1.0"
 authors = ["markjordilew <mark.lewis@zappistore.com>"]

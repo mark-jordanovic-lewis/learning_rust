@@ -1,0 +1,9 @@
+/Users/marklewis/Documents/Code/morbidslug/training/rust/target/debug/deps/libserde_codegen_internals-83701d4c28fcf8ba.rlib: /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/lib.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/ast.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/attr.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/ctxt.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/case.rs
+
+/Users/marklewis/Documents/Code/morbidslug/training/rust/target/debug/deps/serde_codegen_internals-83701d4c28fcf8ba.d: /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/lib.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/ast.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/attr.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/ctxt.rs /Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/case.rs
+
+/Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/lib.rs:
+/Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/ast.rs:
+/Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/attr.rs:
+/Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/ctxt.rs:
+/Users/marklewis/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_codegen_internals-0.14.2/src/case.rs:
