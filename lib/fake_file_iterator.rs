@@ -10,7 +10,7 @@ pub struct Lines<R> {
 }
 
 // we have to implement new and next to simulate the behaviour of an iterator through the line of a file.
-pub impl <R: Read> Lines<R> {
+impl <R: Read> Lines<R> {
     pub fn new(r: R) -> Lines<R> {
         Lines { reader: io::BufReader::new(r), buffer: String::new() }
     }
@@ -42,7 +42,10 @@ pub fn read_all_lines_from_file(filename: &str) -> io::Result<()> {
 }
 
 pub fn read_all_lines_from_url(url: &str) -> io::Result<()> {
-    let mut res = reqwest::get(url)?;
+    let mut res = match reqwest::get(url) {
+        Ok(response) => response,
+        Err(err) => panic!("{:?}", err)
+    };
     let mut lines = Lines::new(res);
     while let Some(line) = lines.next() {
         let line = line?;                   // this allows for read errors to be caught
